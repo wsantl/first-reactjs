@@ -37,3 +37,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.tarefas {
+    margin-top: 30px;
+}
+
+.tarefas li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

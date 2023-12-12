@@ -47,8 +47,8 @@ export default class Main extends Component {
                     {tarefas.map(tarefa => (
                         <li key={tarefas}> {tarefa}
                             <div>
-                                <FaEdit />
-                                <FaWindowClose />
+                                <FaEdit className = "edit" />
+                                <FaWindowClose className = "delete" />
                             </div>
                         </li>
                     ))}
